@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box
+}
+
+.mySlides {
+    color: white;
+    display: flex;
+    width: 600px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    margin: 120px 390px;
+}
+
+.GreenSlide {
+    background-color: mediumaquamarine;
+}
+
+.PinkSlide {
+    background-color: rgb(219, 113, 148);
+}
+
+.BlueSlide {
+    background-color: rgb(93, 117, 255);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
